@@ -1,11 +1,11 @@
-# Lighting-Transformer HPCA 2024 AE
-This contains the codebases for reproducing the main results of the paper "Lightening-Transformer: A Dynamically-operated Optically-interconnected Photonic Transformer Accelerator".
+# Lightening-Transformer HPCA 2024 AE
+This contains the codebases for the main codebases of the paper "Lightening-Transformer: A Dynamically-operated Optically-interconnected Photonic Transformer Accelerator".
 
 ---
 
 ## Usage of the Provided Codebase
 
-For reproducing the results, we provides three kinds of codebases:
+We provides three kinds of codebases:
 
 * (1) algorithm codes for training/running models on our photonic accelerator, with the analytic transformation of our unique photonic tensor core embedded in the computation process. See `./software_model` for detailed implementation and usages, including the [DeiT](https://arxiv.org/abs/2012.12877) case.
 
@@ -49,3 +49,7 @@ to_3tuple = _ntuple(3)
 to_4tuple = _ntuple(4)
 to_ntuple = _ntuple
 ```
+
+## Reference
+
+[1] Hanqing Zhu, Jiaqi Gu, Hanrui Wang, Zixuan Jiang, Rongxing Tang, Zhekai Zhang, Chenghao Feng, Song Han, Ray T. Chen and David Z. Pan. "Lightening-Transformer: A Dynamically-operated Optically-interconnected Photonic Transformer Accelerator", IEEE International Symposium on High-Performance Computer Architecture (HPCA'24). 
