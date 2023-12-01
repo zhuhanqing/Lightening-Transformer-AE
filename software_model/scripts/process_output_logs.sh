@@ -4,9 +4,9 @@
 # set the log file directory
 
 ## params when you parse logs for sweep_wavelength
-log_file='./logs/deit_t_sweep_wavelength.log'
+log_file='./logs/deit_t_sweep_input_noise_std.log'
 num_iters=3 # number of runs you launch for accurcay test
-num_vars=5 # how many variations you sweep
+num_vars=6 # how many variations you sweep
 
 # ## params when you parse logs for sweep input noise std
 # log_file='./logs/deit_t_sweep_input_noise_std.log'
